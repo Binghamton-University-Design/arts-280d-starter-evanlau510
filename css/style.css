@@ -1,6 +1,53 @@
 /*stylesheet*/
 
+/*here is my rude comment*/
+
+/*
+
+tiers of cascading styles
+
+Important -
+
+1 transition
+2 !important
+3 animation
+4 normal
+
+Origin
+website
+user
+browser
+
+Specificity
+inline > id > class > type
+
+position
+top to bottom
+
+*/
+
 body {
 	background-color: #d6d6d6;
 	color: #444444;
+}
+
+h1#main-headline {
+	color: #000000;
+	font-size: 48px;
+	font-weight: 800;
+}
+
+h1.main-headline {
+	color: red;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+h1, h2, h3, h4 {
+	margin:  0;
+
+}
+
+p: last child {
+	color: cornflowerblue;
 }

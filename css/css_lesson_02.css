@@ -1,0 +1,68 @@
+/*stylesheet*/
+
+body {
+	color: #444444;
+	font-family: 'M PLUS 1p';
+	background: url('../images/gr_background.jpg');
+	background-size: cover;
+	background-repeat: none;
+}
+
+
+#wrapper {
+	margin:  2em auto;
+	max-width: 960 px;
+	padding: 0 2em;
+}
+
+
+.article {
+	background-color: #fff;
+	padding: 20px;
+}
+
+
+img {
+	display: block;
+	width:  100%;
+	height: auto;
+	margin: 1em 0;
+}
+
+
+h2, h3, p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+h1, h2, h3{
+	text-align: center;
+}
+
+
+p {
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1{
+	font-weight: 900;
+	margin-top: 0;
+	font-size: 40px;
+	letter-spacing: -2px;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+
+.article a{
+	color: #b3b3b3;
+}
+
+
+.article a:hover {
+	text-decoration: none;
+}

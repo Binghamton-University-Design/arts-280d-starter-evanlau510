@@ -1,0 +1,81 @@
+/*stylesheet*/
+
+body {
+	color: #444444;
+	font-size: 16px;
+	font-family: 'M PLUS 1p';
+	background: url('../images/gr_background.jpg');
+	background-size: cover;
+	background-repeat: none;
+}
+
+
+#wrapper {
+	margin:  2em auto;
+	max-width: 960 px;
+	padding: 0 20px;
+}
+
+
+.article {
+	position: relative;
+	width: 1800px;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 60px 0 20px 0;
+}
+
+.article div {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box{
+	box-sizing: content-box; /* border-box */
+	float: left;
+	width: 200px;
+	border: solid darkgrey 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.masthead{
+	width: 300px;
+	border: solid darkgrey 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.em-sized-box{
+	width: 3em;
+	height: 2em;
+	background-color: orange !important;
+}
+
+.rem-sized-box{
+	width: 2rem;
+	height: 2rem;
+	background-color: indigo !important;
+}
+
+.new-font-size{
+	font-size: 64px;
+}
+
+.vw-vh-demo{
+	width: 10vw;
+	height: 10vh;
+}
+
+.half, .second-half{
+	/*width: 50%;*/
+	width: calc(50% - 40px);
+	padding: 20px;
+}
+.half{
+	float: Left;	
+}
+
+.second-half{
+	float: right;
+}
+

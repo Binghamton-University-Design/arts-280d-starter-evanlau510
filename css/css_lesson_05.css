@@ -1,0 +1,23 @@
+/*stylesheet*/
+
+body {
+	color: #000;
+	font-size: 16px;
+	font-family: 'M PLUS 1p';
+}
+
+
+#wrapper {
+	margin: 2em auto;
+	max-width: 960px;
+	padding: 0 20px;
+}
+
+.grid div{
+	padding: 1rem;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#masthead, #main{
+	padding-bottom: 2rem;
+}

@@ -34,18 +34,24 @@ body {
 
 /* GENERAL CSS */
 
-h1, h2, h3, h4 {
-	margin:  0;
-	font-family: 'M PLUS 1p', sans-serif;
-
-}
-
 #wrapper
 	{
 		margin: 2rem auto;
 		max-width: 1440px;
 		padding: 0 2rem;
 	}
+
+h1, h2, h3, h4 {
+  margin:  0;
+  font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+h1 {
+  height: 5rem;
+  font-weight: 300;
+  color: black;
+}
 
 /* MASTHEAD */
 
@@ -75,8 +81,8 @@ h1, h2, h3, h4 {
 
 #nav a { 
 color: var(--body-color);
-font-weight: 500; 
-font-size: 1.25rem; 
+font-weight: 600; 
+font-size: 1.3rem; 
 text-decoration-color: transparent; 
 display: inline-block; 
 width: 100%; 
@@ -85,8 +91,8 @@ transition: font-size .3s ease-in-out, color .2s ease-in-out;
 }
 
 #nav a:hover, #nav a.active  { 
-  font-size: 1.3rem;
-  color: #17438a;
+  font-size: 1.4rem;
+  color: black;
 }
 
 #nav.active {
@@ -191,8 +197,23 @@ transition: font-size .3s ease-in-out, color .2s ease-in-out;
     transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
 
 /* HOME */
+  
+  #intro {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+
+  }
+
 
 /* RESPONSIVE */
+
+/* FOR VARIABLE TYPE SIZING */
+ @media screen and (min-width: 320px) {
+   body {
+     font-size:calc(12px + 38 * ((100vw - 320px) / 960));
+   }
+ }
 
 @media all and (max-width: 699px) { 
   #nav-button {
@@ -226,6 +247,14 @@ transition: font-size .3s ease-in-out, color .2s ease-in-out;
 
   #intro-holder {
     padding: 0 5em;
+  }
+
+}
+
+@media all and (min-width: 1220px) {
+
+  body {
+    font-size: 50px;
   }
 
 }
